@@ -1,0 +1,92 @@
+/* 整體頁面樣式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(220, 235, 250);
+}
+
+/* 外框 */
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* 頁首 */
+#header {
+    background-color: rgb(172, 232, 172);
+    text-align: center;
+    padding: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+/* 導覽選單 */
+#menu1 {
+    width: 100%;
+    background-color: rgb(200, 200, 200);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.table1 {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(191, 247, 128);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.table1 td {
+    width: 25%;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+}
+
+.table1 a {
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 8px 12px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.table1 a.active {
+    background-color: green;
+}
+
+/* 內容區域 */
+#content {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+/* 頁尾 */
+#footer {
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 0 0 10px 10px;
+}
